@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="springmvc+hibernate:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/springmvc_hibernate_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="springmvc+hibernate" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="antlr-2.7.6" />
+          <element id="library" level="project" name="commons-collections-3.1" />
+          <element id="library" level="project" name="dom4j-1.6.1" />
+          <element id="library" level="project" name="hibernate3" />
+          <element id="library" level="project" name="jta-1.1" />
+          <element id="library" level="project" name="slf4j-api-1.5.8" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="springmvc+hibernate/web/Web" />
+      <element id="javaee-facet-resources" facet="springmvc+hibernate/web/Web3" />
+      <element id="javaee-facet-resources" facet="springmvc+hibernate/web/Web2" />
+    </root>
+  </artifact>
+</component>
